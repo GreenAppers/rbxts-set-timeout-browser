@@ -1,5 +1,7 @@
-import { throttle } from 'throttle-debounce'
+import { throttle } from "throttle-debounce";
 
-export { throttle }
+export { throttle };
 
-export const setTimeout = globalThis.setTimeout
+export * from "./debounce"
+export * from "./set-timeout"
+
